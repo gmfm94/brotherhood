@@ -19,6 +19,14 @@ nav {
     align-items: center;
 }
 
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
 a {
     margin-right: 60px;
     text-decoration: none;
