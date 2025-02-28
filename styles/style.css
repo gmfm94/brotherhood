@@ -54,6 +54,7 @@ main h1 {
 
 #futuro {
     color: #4E6578;
+    max-width: 800px;
 }
 
 main p {
@@ -76,6 +77,7 @@ form [type="submit"] {
     font-weight: bolder;
     border: solid;
     border-color: #4E6578;
+    width: 118%;
 }
 
 form [type="submit"]:hover {
@@ -92,6 +94,15 @@ input {
     padding: 15px;
     border-radius: 15px;
     border: none;
+    width: 110%;
+}
+
+textarea {
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    border: none;
+    width: 110%;
 }
 
 #text {
@@ -101,4 +112,65 @@ input {
 #banner {
     max-width: 600px;
     border-radius: 80px;
+}
+
+
+
+/* -----PAGINA "CONTATO" ABAIXO----- */
+
+
+
+#section {
+    display: flex;
+    border: solid;
+    border-color: #4E6578;
+    border-radius: 20px;
+    height: 585px;
+}
+
+#article-1 {
+    /*background-color: black;*/
+    margin-right: 50px;
+    padding: 45px;
+}
+
+
+#article-2 {
+    background-color: #4E6578;
+    color: white;
+    padding: 45px;
+    border-radius: 15px;
+}
+
+#article-2 h3 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+#form-contato {
+    width: 90%;
+}
+
+
+
+/* -----PAGINA "MAIS VENDIDOS" ABAIXO----- */
+
+
+
+#main-mais-vendidos h2 {
+    font-weight: normal;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 90px 10px 90px;
+    
+}
+
+.article-mais-vendidos {
+    display: flex;
+}
+
+.produto img {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
 }
